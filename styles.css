@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: black;
+    
+}
+
+.imge{
+   border-top-left-radius: 16px;
+   border-top-right-radius: 16px;
+   width: 400px;
+  
+}
+
+.main_container{
+    position: relative;
+    background-color:  white;
+    height: 620px;
+    width: 400px;
+    margin:  auto auto auto;
+    bottom: 50px;
+    border-radius: 16px;
+    /* transform: scale(0.9); */
+    
+   
+}
+.topic{
+    font-family: 'Red Hat Display', sans-serif;
+    color: black;
+}
+
+.inner_container1{
+    color: hsl(223, 27%, 50%);
+    width: 80%;
+    margin: auto;
+    margin-bottom: 13px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+
+.inner_container2{
+    background-color: hsl(225, 100%, 98%);
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 16px;
+    
+    
+
+}
+
+.music{
+    float: left;
+    size: 234px;
+    position: relative;
+    top: 12px;
+    left: 21px;
+}
+.year{
+    width: 70%;
+    display: inline-block;
+    position: relative;
+    margin-top: 25px;
+    right: 57px;
+    bottom: 5px
+   
+}
+.Annual{
+    display: inline;
+    position: relative;
+    top: 13px;
+    right: 27px;
+    font-size: 17px;
+     
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.Change{
+    color: hsl(223, 27%, 50%);
+    position: relative;
+    top: 30px;
+    left: 18%;
+    
+    
+}
+
+.Change:hover{
+    color: hsl(223, 66%, 21%) ;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+.btn {
+    color: #ffffff;
+    font-size: 3px;
+    padding: 0 20px 10px 20px;
+    text-decoration: none;
+    width: 79%;
+    background-color: blue;
+    font-size: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 5px 31px 5px 0 hsl(225, 100%, 98%);
+    font-family: 'Red Hat Display', sans-serif;
+    height: 40px;
+
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
+.master{
+      background-color: hsl(225, 100%, 94%);
+      width: 77%;
+      margin: 0 auto auto auto;
+      height: 750px;
+      padding-top: 70px;
+      
+  }
+
+.first{
+    position: absolute;
+    left: 30px;
+    transform: scale(0.8);
+    bottom: 303px;
+    
+   
+    
+
+
+}
+
+.calendarIcon{
+    background-image: url("data:image/svg+xml,%3Csvg...svg%3E");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.second{
+    
+    position: absolute;
+    left: 30px;
+    transform: scale(0.8);
+    top: 400px;
+    
+   
+}
+
+.last{
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 30px;
+    font-size: 12px;
+    color: hsl(223, 27%, 50%)
+}
